@@ -1,0 +1,8 @@
+path: datasets/sauvc2022  # dataset root dir
+train: datasets/sauvc2022/train  # train images (relative to 'path') 118287 images
+val: datasets/sauvc2022/eval  # val images (relative to 'path') 5000 images
+
+nc: 7
+
+# Classes
+names: ['gate', 'red_flare', 'yellow_flare', 'red_bowl', 'blue_bowl', 'mat', 'gate_qualification']
